@@ -1,0 +1,153 @@
+.container{
+    width: 800px;
+    height: 1050px;
+    border: 5px solid rgb(166, 240, 141);
+    background-color: rgb(184, 219, 173);
+    border-radius: 100px;
+    margin-left: 200px;
+    margin-right: auto;
+}
+img {
+    width: 700px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+.span {
+    margin-left: 40px;
+    margin-top: 7px;
+    background-color: white;
+    width: 700px;
+}
+#spann {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    width: 350px;
+    height: 800px;
+    margin-top: 20px;
+    border: 5px solid rgb(166, 240, 141);
+    background-color: white;
+    border-radius: 100px;
+    margin-left:25px;
+}
+.right {
+    width: 350px;
+    height: 800px;
+    margin-top: 20px;
+    border: 5px solid rgb(166, 240, 141);
+    background-color: white;
+    border-radius: 100px;
+    margin-right:25px;
+}
+#leftText {
+    white-space: pre-line;
+    margin-left: 20px;
+}
+#rightText {
+    white-space: pre-line;
+    margin-left: 20px;
+}
+
+@media(max-width :1200px){
+    .container{
+        width: 700px;
+        height: auto;
+        margin-left: 120px;
+    }
+    img{
+        width: 600px;
+    }
+    .span{
+        width: 600px;
+    }
+    .left{
+        width: 300px;
+        height: auto;
+    }
+    .right{
+        width: 300px;
+        height: auto;
+    }
+    .leftText {
+        font-size: 28px;
+    }
+    .rightText{
+        font-size: 28px;
+    }
+    .spann{
+        font-size: 32px;
+    }
+
+}
+
+@media(max-width :1000px){
+    .container{
+        width: 600px;
+        height: auto;
+        margin-left: 100px;
+    }
+    img{
+        width: 500px;
+    }
+    .span{
+        width: 500px;
+    }
+    .left{
+        width: 250px;
+        height: auto;
+    }
+    .right{
+        width: 250px;
+        height: auto;
+    }
+    .leftText {
+        font-size: 25px;
+    }
+    .rightText{
+        font-size: 25px;
+    }
+    .spann{
+        font-size: 32px;
+    }
+
+}
+
+@media(max-width :768px){
+    .container{
+        width: 500px;
+        height: auto;
+        margin-left: 80px;
+    }
+    img{
+        width: 400px;
+    }
+    .span{
+        width: 400px;
+    }
+    .left{
+        width: 200px;
+        height: auto;
+    }
+    .right{
+        width: 200px;
+        height: auto;
+    }
+    .leftText {
+        font-size: 22px;
+    }
+    .rightText{
+        font-size: 22px;
+    }
+    .spann{
+        font-size: 28px;
+    }
+
+}
